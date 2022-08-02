@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Outfit',sans-serif;
+}
+body {
+  background-color: hsl(0, 14%, 5%);
+  display: flex;
+}
+marquee {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: aquamarine;
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: hsl(0, 14%, 5%);
+}
+.container {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+}
+.header {
+  padding-bottom: 2rem;
+}
+.header h1 {
+  letter-spacing: 1px;
+  padding-bottom: 1rem;
+}
+.header p {
+  letter-spacing: 1px;
+}
+input {
+  width: 200px;
+  height: 35px;
+  padding: 10px;
+  background: none;
+  border: 2px solid white;
+  outline: none;
+  margin-bottom: 2rem;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.main .name-wrap {
+  width: auto;
+  min-width: 400px;
+  height: 70px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+.main .name-wrap .name {
+  width: auto;
+  min-width: 96%;
+  height: 75%;
+  background-color: bisque;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: capitalize;
+}
+.main .btn-tot {
+  display: flex;
+  flex-direction: column;
+}
+.main .btn-tot .summary {
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: black;
+  background-color: beige;
+  margin-bottom: 1px;
+}
+.main .btn-tot .summary span {
+  color: black;
+}
+.main .btn-tot .button {
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: aqua;
+  outline: none;
+  border: none;
+}
+.main .btn-tot .button:hover {
+  background-color: aquamarine;
+}
+h4 {
+  font-family: serif;
+}
